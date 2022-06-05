@@ -1,0 +1,19 @@
+{
+  "name": "nodepackagemanager",
+  "version": "1.0.0",
+  "description": "Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugh Signoriello",
+  "license": "ISC",
+  "dependencies": {
+    "i": "^0.3.7",
+    "mongoose": "^6.3.5",
+    "underscore": "^1.13.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.4"
+  }
+}
