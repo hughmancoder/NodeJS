@@ -5,5 +5,6 @@ an imaginary service for renting out movies
 - create a service to manage list of genres (action, horror, romance)
 
 ## Features
-- create a new genre
-- update or delete existing genre
+- get a genre 
+- create a new genre (post)
+- update or delete existing genre (put), (delete)
