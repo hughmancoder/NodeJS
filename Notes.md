@@ -114,3 +114,9 @@
 
 ## Database integration
 - Many options available options: cassandra, mySql, mongoDb, oracle, redis, etc...
+- Documentation for integration here: https://expressjs.com/en/guide/database-integration.html
+-
+## Structuring application
+- all routes should be in the routes folder
+- all routes with /courses should be in courses.js
+- all routes with /authors should be in authors.js 
