@@ -1,0 +1,20 @@
+{
+  "name": "advanced-concepts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "config": "^3.3.7",
+    "cookie-parser": "~1.4.4",
+    "debug": "^3.1.0",
+    "express": "~4.16.1",
+    "helmet": "^5.1.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "joi": "^13.1.0",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
+  }
+}

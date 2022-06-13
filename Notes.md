@@ -83,4 +83,34 @@
 - api/posts/2018/1?sortBy=name
 
 ### handling validation
-- npm i joi
+- npm i joi 
+- npm i joi@13.1.0 // installs older version
+
+## Advanced topics
+
+### Midleware
+- a function which takes request object and returns response to client or passes control to another middleware function
+- route handler function: middleware function
+- Examples: res.send, express.json()
+
+### changing environments
+- export NODE_ENV=production
+- in development environment we manually set environment varaibles
+- export app_password=1234
+
+### Using debug package
+- npm i debug@3.1.0
+- access debugging:
+- export DEBUG=app:startup
+- export DEBUG=app:startup, app:db;   // select multiple debug namespaces
+- export DEBUG=app:* // select all for debugging
+- shorcut: DEBUG=app:db nodemon index.js
+
+### Templating engines
+- here are some examples: (view engines are not actually needed)
+- pug (Jade), mustache, EJS -> generates dynamic html and sends to client
+- npm i pug
+- pug or .jade files render html to client side
+
+## Database integration
+- Many options available options: cassandra, mySql, mongoDb, oracle, redis, etc...
